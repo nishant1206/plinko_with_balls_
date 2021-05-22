@@ -123,10 +123,10 @@ function mousePressed() {
 }
 
 function chance_count_setter() {
-    if (chance_input == NaN) {
+    if (chance_input.value == null) {
         alert("Chance Value is Null, Chance set to 5");
     } else {
         cc_ = parseInt(document.getElementById("chance_taker").value);
-        alert("Chance is set to " + cc_)
+        alert("Chance is set to " + cc_);
     }
 }
