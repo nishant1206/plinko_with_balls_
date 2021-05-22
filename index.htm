@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="js/ground.js"></script>
+    <script src="js/divisions.js"></script>
+    <script src="js/Particle.js"></script>
+    <script src="js/Plinko.js"></script>
+    <script src="js/line.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="bg_img"></div>
+    <h1 id="chance_txt">How Many chances you want to take</h1>
+    <input type="text" id="chance_taker" placeholder="Enter how many times you want to take the chance">
+    <button id="Submit_btn" onclick="chance_count_setter()">Submit</button>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
